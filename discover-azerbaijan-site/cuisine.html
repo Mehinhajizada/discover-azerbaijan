@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azerbaijani Cuisine | Land of Fire</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body class="bg-gradient-to-b from-blue-50 to-white">
+    <custom-navbar></custom-navbar>
+    
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <!-- Cuisine Hero -->
+        <section class="relative overflow-hidden rounded-2xl shadow-xl mb-16 bg-center bg-cover" 
+    style="background-image: url('https://www.azernews.az/media/2018/08/24/cuisine.jpg');">
+
+            <div class="absolute inset-0 bg-black opacity-40"></div>
+            <div class="relative h-64 md:h-96 flex items-center justify-center">
+                <div class="text-center px-4">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Azerbaijani Cuisine</h1>
+                    <p class="text-xl md:text-2xl text-white">A Feast of Flavors from the Land of Fire</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Signature Dishes -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Signature Dishes</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Plov -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <img src="https://azerbaijan.az/uploads/news-files/melumatlar/medeniyyet/Kulinariya/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%D0%9F%D0%B0%D0%BF%D0%BA%D0%B0/npzy.jpg" alt="Plov" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Plov</h3>
+                        <p class="text-gray-600 mb-4">The crown jewel of Azerbaijani cuisine with over 40 varieties, often prepared with saffron, dried fruits, and chestnuts.</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i data-feather="clock" class="mr-1 w-4 h-4"></i>
+                            <span>Cooking time: 2-3 hours</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dolma -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <img src="https://www.azernews.az/media/2017/12/06/dolma.jpg" alt="Dolma" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Dolma</h3>
+                        <p class="text-gray-600 mb-4">Grape leaves or vegetables stuffed with minced lamb or beef, rice, and aromatic herbs.</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i data-feather="clock" class="mr-1 w-4 h-4"></i>
+                            <span>Cooking time: 1.5 hours</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kebabs -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                    <img src="https://azerbaijan.az/uploads/news-files/melumatlar/medeniyyet/Kulinariya/%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F%D0%9F%D0%B0%D0%BF%D0%BA%D0%B0/sufrem.az-99184.jpg" alt="Kebabs" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Kebabs</h3>
+                        <p class="text-gray-600 mb-4">Juicy skewered meats grilled over open flame, often served with sumac onion salad and flatbread.</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i data-feather="clock" class="mr-1 w-4 h-4"></i>
+                            <span>Cooking time: 30-45 minutes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Regional Specialties -->
+        <section class="mb-16 bg-gradient-to-r from-red-50 to-yellow-50 p-8 rounded-2xl">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Regional Specialties</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-800 flex items-center">
+                        <i data-feather="map-pin" class="mr-2 text-red-600"></i>
+                        Baku & Absheron
+                    </h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="mr-2 text-green-500 mt-0.5"></i>
+                            <span><strong>Dushbara</strong> - Tiny dumplings in broth</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="mr-2 text-green-500 mt-0.5"></i>
+                            <span><strong>Qutab</strong> - Thin pancakes with greens or meat</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4 text-gray-800 flex items-center">
+                        <i data-feather="map-pin" class="mr-2 text-blue-600"></i>
+                        Sheki & Northwest
+                    </h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="mr-2 text-green-500 mt-0.5"></i>
+                            <span><strong>Piti</strong> - Lamb and chickpea stew cooked in clay pots</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="mr-2 text-green-500 mt-0.5"></i>
+                            <span><strong>Sheki halva</strong> - Layered pastry with nuts</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tea Culture -->
+        <section class="mb-16">
+            <div class="flex flex-col md:flex-row items-center bg-white rounded-2xl shadow-md overflow-hidden">
+                <div class="md:w-1/2 p-8">
+                    <h2 class="text-3xl font-bold mb-4 text-gray-800">Tea Culture</h2>
+                    <p class="text-gray-600 mb-6">Tea is the centerpiece of Azerbaijani hospitality, traditionally served in armudu (pear-shaped) glasses with cube sugar or jam.</p>
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <i data-feather="coffee" class="mr-3 text-red-600"></i>
+                            <span>Typically black tea from Lankaran region</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="clock" class="mr-3 text-red-600"></i>
+                            <span>Served with sweets like pakhlava or shekerbura</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="heart" class="mr-3 text-red-600"></i>
+                            <span>Symbol of friendship and hospitality</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src=" https://i.ebayimg.com/images/g/9xkAAOSwiehlZtQ-/s-l400.jpg" alt="Azerbaijani Tea" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-10">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+      
+          <!-- About section -->
+          <div>
+            <h2 class="text-xl font-semibold mb-3">About Azerbaijan</h2>
+            <p class="text-gray-200 leading-relaxed">
+              The Land of Fire where East meets West, offering rich culture, delicious cuisine, and breathtaking landscapes.
+            </p>
+          </div>
+      
+          <!-- Quick links -->
+          <div>
+            <h2 class="text-xl font-semibold mb-3">Quick Links</h2>
+            <ul class="space-y-2">
+              <li><a href="index.html" class="hover:underline">Home</a></li>
+              <li><a href="culture.html" class="hover:underline">Culture</a></li>
+              <li><a href="cuisine.html" class="hover:underline">Cuisine</a></li>
+              <li><a href="travel.html" class="hover:underline">Travel Guide</a></li>
+            </ul>
+          </div>
+      
+          <!-- Contact info -->
+          <div>
+            <h2 class="text-xl font-semibold mb-3">Connect With Us</h2>
+            <ul class="space-y-2 text-gray-200">
+              <li>📧 <a href="mailto:mehin.hajizada@example.com" class="hover:underline">mehin.hajizada@gmail.com</a></li>
+              <li>📷 <a href="https://www.instagram.com/" target="_blank" class="hover:underline">@haajizada.m</a></li>
+              <li>📍 Baku, Azerbaijan</li>
+            </ul>
+          </div>
+      
+        </div>
+      
+        <div class="text-center text-gray-300 mt-10 border-t border-gray-600 pt-4">
+          © 2025 Discover Azerbaijan. All rights reserved.
+        </div>
+      </footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
